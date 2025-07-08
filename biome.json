@@ -1,0 +1,57 @@
+{
+	"$schema": "https://biomejs.dev/schemas/2.0.6/schema.json",
+	"linter": {
+		"rules": {
+			"suspicious": {
+				"noDebugger": "off",
+				"noArrayIndexKey": "off",
+				"noExplicitAny": "off",
+				"noAsyncPromiseExecutor": "off"
+			},
+			"style": {
+				"noShoutyConstants": "warn",
+				"useNamingConvention": "off",
+				"noUnusedTemplateLiteral": "off",
+				"noParameterAssign": "off",
+				"useConst": "warn",
+				"useSelfClosingElements": "off",
+				"noNonNullAssertion": "off",
+				"useTemplate": "off"
+			},
+			"complexity": {
+				"noBannedTypes": "off",
+				"noUselessLoneBlockStatements": "off",
+				"useOptionalChain": "off",
+				"noForEach": "off"
+			},
+			"correctness": {
+				"noEmptyPattern": "off",
+				"useExhaustiveDependencies": "warn",
+				"noUnusedImports": "off"
+			},
+			"a11y": {
+				"useMediaCaption": "off",
+				"useSemanticElements": "off",
+				"noNoninteractiveTabindex": "off",
+				"noSvgWithoutTitle": "off"
+			}
+		}
+	},
+	"javascript": {
+		"formatter": {
+			"arrowParentheses": "always",
+			"bracketSameLine": false,
+			"bracketSpacing": true,
+			"jsxQuoteStyle": "double",
+			"quoteProperties": "asNeeded",
+			"semicolons": "always",
+			"trailingCommas": "all"
+		}
+	},
+	"json": {
+		"formatter": {
+			"trailingCommas": "none"
+		}
+	},
+	"files": {}
+}
